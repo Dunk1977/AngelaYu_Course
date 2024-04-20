@@ -1,0 +1,75 @@
+## FOR CREATING A NEW REPOSITORY IN GIT
+1. Create a new project folder. You can create this folder using VSCode or through your file system.
+2. Open a terminal in the project folder:
+3. Run git init in the terminal:
+4. git init ##used to initialize a new Git repository. When you run this command in a directory, Git sets up the necessary data structures and files to start version controlling your project in that directory. It essentially turns a regular directory into a Git repository.
+5. git add .
+6. git commit -m "Initial Commit"
+7. create the repo in github and get the url
+8. git config --global http.sslbackend schannel 
+9. git remote add origin <your-github-repository-url>
+10. git push -u origin master
+
+
+#### TO BRING FILES TO A NEW COMPUTER
+Clone the GitHub Repository:
+1. git clone https://github.com/Dunk1977/amad-portfolio
+
+
+1. git config --global http.sslbackend schannel
+2. git remote add <origin> https://github.com/Dunk1977/webdevtraining.git #Change origin name to any other name, if there are more than one projects that you want to work at a time. 
+3. git clone https://github.com/Dunk1977/webdevtraining C:\path\to\your\directory
+4. code C:\path\to\your\directory (Adds to VSCode)
+5. start adding files and folders and changing files and folders as needed
+6. git add .
+7. git commit -m "Your commit message"
+8. git push origin master
+
+### COMMANDS FOR THE ORIGINAL COMPUTER
+1. git pull origin master
+2. then i make changes in the files and folders. maybe add some new files. after that I run
+3. git add .
+4. git commit -m "Commit Message"
+5. git push origin master
+
+
+
+
+Navigate to the Cloned Repository:
+
+bash
+Copy code
+cd <repository-directory>
+Check Current Branch:
+
+bash
+Copy code
+git branch
+Create and Switch to a New Branch (Optional):
+
+bash
+Copy code
+git checkout -b NewFeatures
+Make Changes to Files:
+(Modify or add files as needed)
+
+Stage Changes:
+
+bash
+Copy code
+git add .
+Commit Changes:
+
+bash
+Copy code
+git commit -m "Your commit message"
+Push Changes to GitHub:
+
+bash
+Copy code
+git push -u origin NewFeatures
+Check Remote Branches:
+
+bash
+Copy code
+git branch -r

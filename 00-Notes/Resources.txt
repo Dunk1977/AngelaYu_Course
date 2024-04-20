@@ -1,0 +1,33 @@
+Helpful Links
+
+
+##Reference for all the tags and CSS Selectors ##
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
+
+
+##Color Names in HTML
+https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
+
+##Color Slider
+https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/
+
+## Color Pallettes
+https://colorhunt.co/
+
+## A Complete Guide To FlexBox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+## JavaScript Writing
+https://github.com/rwaldron/idiomatic.js#naming
+
+## Creating flow charts
+https://draw.io 
+
+## coding horror blog
+https://blog.codinghorror.com
+
+## HTML Tree Generator
+Chrome plug-in 
+
+##Event Listeners###
+https://developer.mozilla.org/en-US/docs/Web/Events
